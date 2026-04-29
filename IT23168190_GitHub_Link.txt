@@ -1,0 +1,16 @@
+@"
+GitHub Repository: https://github.com/raweerasooriya/IT3040-Assignment1
+
+Student Registration Number: IT23168190
+Name: WEERASOORIYA R A
+Course: BSc (Hons) in Information Technology - Year 3
+Module: IT3040 - ITPM
+Assignment: Option 1 - Transliteration Accuracy Testing
+
+Repository contains:
+- test_automation.py (Playwright automation script)
+- IT23168190_Assignment1.xlsx (50 test cases with results)
+- README.md (setup instructions)
+- requirements.txt (Python dependencies)
+- .gitignore (Git rules)
+"@ | Out-File -FilePath "IT23168190\IT23168190_GitHub_Link.txt" -Encoding utf8

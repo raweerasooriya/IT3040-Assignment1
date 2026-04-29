@@ -39,8 +39,8 @@ The automation script tests 50 negative test cases across 24 Singlish input type
 ### How to Run Tests
 Run the automation script:
 
-   ``bash
-   python test_automation.py --excel "IT23168190_Assignment1.xlsx" --url "https://www.pixelsuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --save-every 5
+   ```bash
+   python test_automation.py --excel "IT23168190_Assignment 1 - Test cases.xlsx" --url "https://www.pixelsuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --save-every 5
 
 Note: If python is not recognized, use py instead
 
