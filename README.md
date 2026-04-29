@@ -37,15 +37,21 @@ The automation script tests 50 negative test cases across 24 Singlish input type
    
    Note: If playwright is not recognized, use py -m playwright install
 
-### How to Run Tests
-1. Run the automation script:
+## How to Run Tests
+
+### Important Note Before Running:
+**Your Excel file should only have columns A-D (Test Case ID, Input length type, Input, Expected output) before running the script.** The script will automatically add columns E (Actual output) and F (Status). After the script completes, you can manually add columns G and H for input types and evidence.
+
+### Run the automation script:
+
+1. Option 1: Using `py` (recommended - works even if Python is not in PATH)**
+   ```bash
+   py test_automation.py --excel "IT23168190_Assignment 1 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --save-every 5
+
+2. Option 2: Using python (if Python is in your system PATH)**
 
    ```bash
-   python test_automation.py --excel "IT23168190_Assignment 1 - Test cases.xlsx" --url "https://www.pixelsuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --save-every 5
- 
-   
-   Note: If python is not recognized, use py instead
-
+   python test_automation.py --excel "IT23168190_Assignment 1 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --save-every 5
 
 
 ### Test Coverage
