@@ -8,7 +8,7 @@
 
 ## Project Overview
 This project automates testing of the Chat Sinhala transliteration tool available at:
-https://www.pixelsuite.com/chat-translator
+https://www.pixelssuite.com/chat-translator
 
 The automation script tests 50 negative test cases across 24 Singlish input types (as specified in Appendix 1 of the assignment) and records results in an Excel spreadsheet.
 
