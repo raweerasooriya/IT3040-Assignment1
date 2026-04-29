@@ -71,7 +71,7 @@ All 50 test cases resulted in FAIL status, correctly identifying inaccuracies in
 The script automatically:
 1. Updates the Excel file with actual outputs
 2. Marks each test as PASS or FAIL
-3. Results are saved in IT23168190_Assignment1.xlsx
+3. Results are saved in IT23168190_Assignment 1 - Test cases.xlsx
 
 ### Troubleshooting
 ## Issue: python or pip not recognized
